@@ -1,10 +1,10 @@
 const { createApp, ref } = Vue;
 
 createApp({
-  setup() {
-    const message = ref("Hello vue!");
+  data() {
     return {
-      message,
+      message: "Hello Vue!",
+      image: "./js/7cb22a8a9885468d96662f6ece61ceb2bc95666d-500x300.png",
     };
   },
 }).mount("#app");
